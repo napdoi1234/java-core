@@ -1,0 +1,27 @@
+package javacore;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import model.HangHoaModel;
+import service.IHangHoaService;
+
+public class core {
+//	public IHangHoaService hangHoaService;
+//	public core(IHangHoaService hangHoaService) {
+//		 this.hangHoaService=hangHoaService;
+//	}
+
+	@SuppressWarnings("null")
+	public static void main(String[] args) {
+		List<HangHoaModel> hangHoaList=new ArrayList<HangHoaModel>();
+		IHangHoaService hangHoaService = null;
+		hangHoaList=hangHoaService.findAll();
+		for(HangHoaModel hhmd: hangHoaList) {
+			System.out.println(hhmd.getName()+" "+hhmd.getPrice());
+		}
+	}
+
+	
+
+}

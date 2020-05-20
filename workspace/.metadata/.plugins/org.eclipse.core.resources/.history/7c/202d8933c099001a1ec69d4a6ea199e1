@@ -1,0 +1,27 @@
+package service.impl;
+
+import java.util.List;
+
+import dao.IHangHoaDAO;
+import model.HangHoaModel;
+import service.IHangHoaService;
+
+public class HangHoaService implements IHangHoaService {
+	private IHangHoaDAO hangHoaDAO;
+
+	public  HangHoaService(IHangHoaDAO hangHoaDAO) {
+		this.hangHoaDAO=hangHoaDAO;
+	}
+	public HangHoaService() {
+		// TODO Auto-generated constructor stub
+	}
+	@Override
+	public List<HangHoaModel> findAll() {
+		if(hangHoaDAO.findAll()==null) {
+			System.out.print("a");
+			return null;
+		}
+		return hangHoaDAO.findAll();
+	}
+
+}

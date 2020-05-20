@@ -1,0 +1,13 @@
+package javacore;
+
+public class core {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int i=3;
+		int a;
+		a=(int) i;
+		System.out.print(a);
+	}
+
+}

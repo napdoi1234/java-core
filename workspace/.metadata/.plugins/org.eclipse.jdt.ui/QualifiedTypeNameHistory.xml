@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="java.sql.Connection"/>
+<fullyQualifiedTypeName name="java.sql.DriverManager"/>
+<fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
+<fullyQualifiedTypeName name="java.sql.ResultSet"/>
+<fullyQualifiedTypeName name="java.sql.Timestamp"/>
+<fullyQualifiedTypeName name="java.sql.SQLException"/>
+<fullyQualifiedTypeName name="dao.impl.AbstractDAO"/>
+<fullyQualifiedTypeName name="java.awt.List"/>
+<fullyQualifiedTypeName name="dao.IHangHoaDAO"/>
+<fullyQualifiedTypeName name="org.omg.CORBA.PUBLIC_MEMBER"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="service.IHangHoaService"/>
+<fullyQualifiedTypeName name="service.impl.HangHoaService"/>
+<fullyQualifiedTypeName name="dao.impl.HangHoaDAO"/>
+<fullyQualifiedTypeName name="model.HangHoaModel"/>
+<fullyQualifiedTypeName name="dao.GenericDAO"/>
+<fullyQualifiedTypeName name="dao.IHoaDonDAO"/>
+<fullyQualifiedTypeName name="dao.impl.HoaDonDAO"/>
+<fullyQualifiedTypeName name="dao.IKhachHangDAO"/>
+<fullyQualifiedTypeName name="dao.impl.KhachHangDAO"/>
+<fullyQualifiedTypeName name="model.HoaDonModel"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="service.IHoaDonService"/>
+<fullyQualifiedTypeName name="service.IKhachHangService"/>
+<fullyQualifiedTypeName name="service.impl.HoaDonService"/>
+<fullyQualifiedTypeName name="service.impl.KhachHangService"/>
+<fullyQualifiedTypeName name="java.util.Scanner"/>
+<fullyQualifiedTypeName name="model.KhachHangModel"/>
+<fullyQualifiedTypeName name="java.util.InputMismatchException"/>
+</qualifiedTypeNameHistroy>

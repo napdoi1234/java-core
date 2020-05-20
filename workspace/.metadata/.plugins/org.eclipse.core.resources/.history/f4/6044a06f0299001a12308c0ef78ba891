@@ -1,0 +1,22 @@
+package javacore;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import model.HangHoaModel;
+import service.IHangHoaService;
+
+public class core implements IHangHoaService{
+
+	public static void main(String[] args) {
+		core mainInterface= new core();
+		List<HangHoaModel> hangHoaList=new ArrayList<HangHoaModel>();
+		hangHoaList=mainInterface.findAll();
+		for(HangHoaModel hhmd: hangHoaList) {
+			System.out.println(hhmd.getName()+" "+hhmd.getPrice());
+		}
+	}
+
+	
+
+}

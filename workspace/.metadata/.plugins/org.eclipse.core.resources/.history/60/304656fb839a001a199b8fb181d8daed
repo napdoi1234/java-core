@@ -1,0 +1,8 @@
+package dao.impl;
+
+import dao.IHoaDonDAO;
+import model.HoaDonModel;
+
+public class HoaDonDAO extends AbstractDAO<HoaDonModel> implements IHoaDonDAO {
+
+}

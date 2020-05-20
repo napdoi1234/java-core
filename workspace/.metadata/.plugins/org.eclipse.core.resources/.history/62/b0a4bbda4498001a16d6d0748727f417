@@ -1,0 +1,8 @@
+package dao.impl;
+
+import dao.IHangHoaDAO;
+import model.HangHoaModel;
+
+public class HangHoaDAO extends AbstractDAO<HangHoaModel> implements IHangHoaDAO{
+
+}
